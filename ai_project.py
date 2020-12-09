@@ -28,7 +28,7 @@ local_css("style.css")
 set_png_as_page_bg('bg2.png')
 stt.set_theme({'primary': '#F794B9'})
 
-st.markdown("<h1 style='text-align: center;'>Mammography Results Analyser</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'> FNA Result Analyser</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;'> An Accurate Tool for Breast Cancer Prediction </p>", unsafe_allow_html=True)
 
 col1,col2,col3 = st.beta_columns(3)
